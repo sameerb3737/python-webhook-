@@ -32,7 +32,7 @@ def makeWebhookResult(req):
     parameters = result.get("parameters")
     zone = parameters.get("shipping-zone")
 
-    course = {'persuasion course':'topic', 'presentation skill':'topic', 'Business Plan Development':'topic'}
+    course = {'persuasion course':'topic', 'presentation skill':'topic', 'Business Plan Development':'topic', 'Team Building':'topic'}
 
     speech = "we have" + zone + " and the topics for it are" + str(cost[zone])".
 
